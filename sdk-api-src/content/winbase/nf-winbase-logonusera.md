@@ -125,7 +125,7 @@ This logon type preserves the name and password in the <a href="/windows/desktop
 </dl>
 </td>
 <td width="60%">
-This logon type allows the caller to clone its current token and specify new credentials for outbound connections. The new logon session has the same local identifier but uses different credentials for other network connections.
+This logon type allows the caller to clone its current token and specify new credentials for outbound connections. The new logon session has the same local identifier but uses different credentials for other network connections. Providing wrong credentials will not return an error.
 
 This logon type is supported only by the LOGON32_PROVIDER_WINNT50 logon provider.
 
